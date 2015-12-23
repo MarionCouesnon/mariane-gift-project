@@ -20,6 +20,10 @@ page "/devinette-5.html", layout: false
 page "/win.html", layout: false
 page "/fail.html", layout: false
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
+end
 
 configure :development do
  activate :livereload
