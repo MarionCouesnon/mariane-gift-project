@@ -15,14 +15,19 @@
 
     if ($(this).hasClass('last-devinette')) {
       var count = 0;
-      for (var i in answers)
-        if (right_answers[i] == answers[i])
+      for (var i in answers) {
+        if (right_answers[i] == answers[i]) {
           count++;
-      if (count >= 3)
-        href = '/win';
-      else
-        href = '/fail';
-    };
+        }
+      }
+
+      if (count >= 3) {
+        href = '/mariane-gift-project/win';
+      } else {
+        href = '/mariane-gift-project/fail';
+      }
+    }
+
     link(href);
   });
 })(jQuery);
