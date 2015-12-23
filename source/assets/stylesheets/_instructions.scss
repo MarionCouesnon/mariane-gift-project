@@ -1,0 +1,12 @@
+.header-icon {
+  padding-top: $base-spacing;
+  width: 40%;
+}
+
+.instructions {
+  @include span-columns(8);
+  @include shift(2);
+
+  font-size: modular-scale(1);
+  margin-bottom: $base-spacing;
+}

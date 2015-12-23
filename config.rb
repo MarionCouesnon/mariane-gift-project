@@ -11,6 +11,16 @@ set :images_dir, "assets/images"
 set :fonts_dir, "assets/fonts"
 set :layout, "layouts/application"
 
+page "/instruction.html", layout: false
+page "/devinette-1.html", layout: false
+page "/devinette-2.html", layout: false
+page "/devinette-3.html", layout: false
+page "/devinette-4.html", layout: false
+page "/devinette-5.html", layout: false
+page "/win.html", layout: false
+page "/fail.html", layout: false
+
+
 configure :development do
  activate :livereload
 end

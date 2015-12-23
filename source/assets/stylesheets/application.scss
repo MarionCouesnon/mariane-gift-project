@@ -4,4 +4,8 @@
 @import "base/base";
 @import "neat";
 
-@import "global";
+@import "shared";
+@import "index";
+@import "instructions";
+@import "fail";
+@import "win";

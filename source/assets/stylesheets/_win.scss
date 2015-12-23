@@ -1,0 +1,8 @@
+.gift-sentence {
+  @include span-columns(10);
+  @include shift(1);
+
+  font-size: modular-scale(0);
+  margin-bottom: $small-spacing;
+  text-align: center;
+}

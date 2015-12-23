@@ -1,0 +1,8 @@
+.mention {
+  @include span-columns(10);
+  @include shift(1);
+
+  font-size: modular-scale(0);
+  padding-top: modular-scale(4);
+  text-align: center;
+}

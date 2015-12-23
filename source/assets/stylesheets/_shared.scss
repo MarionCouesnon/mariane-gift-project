@@ -1,0 +1,57 @@
+body {
+  color: white;
+  height: 700px;
+  max-width: 400px;
+}
+
+.main-background {
+  @include outer-container;
+
+  background-color: $yellow-bg;
+  height: 100%;
+  width: 100%;
+}
+
+.audio-wrapper {
+  audio {
+    display: block;
+    margin: 0 auto $base-spacing * 2;
+  }
+}
+
+.button-wrapper {
+  @include span-columns(8);
+  @include shift(2);
+
+  background-color: $action-color;
+  border: $base-border;
+  border-color: $action-color;
+  border-radius: $base-border-radius;
+  margin-bottom: $base-spacing;
+  text-align: center;
+
+  a {
+    color: $white;
+    font-size: modular-scale(1);
+    padding: $small-spacing / 4 $small-spacing;
+  }
+}
+
+.result-title {
+  @include span-columns(8);
+  @include shift(2);
+
+  font-size: modular-scale(4);
+  letter-spacing: 0.02em;
+  margin-bottom: $small-spacing / 2;
+  text-align: center;
+}
+
+.result-sentence {
+  @include span-columns(10);
+  @include shift(1);
+
+  font-size: modular-scale(1);
+  margin-bottom: $base-spacing;
+  text-align: center;
+}
