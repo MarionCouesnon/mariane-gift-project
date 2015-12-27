@@ -3,10 +3,16 @@
   @include shift(1);
 
   color: $white;
-  font-size: modular-scale(4);
-  letter-spacing: 0.02em;
-  padding-top: $small-spacing;
+  font-size: modular-scale(5);
+  letter-spacing: 0.03em;
+  padding-top: $small-spacing / 2;
   text-align: center;
+
+  @include media(min-width 320px max-width 480px) {
+    font-size: modular-scale(4);
+    letter-spacing: 0.02em;
+    padding-top: $small-spacing;
+  }
 }
 
 svg {
@@ -14,5 +20,9 @@ svg {
   margin-left: auto;
   margin-right: auto;
   fill: #f9F9F9;
-  width: 60%;
+  width: 30%;
+
+  @include media(min-width 320px max-width 480px) {
+    width: modular-scale(9);
+  }
 }
