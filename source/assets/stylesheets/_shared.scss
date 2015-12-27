@@ -6,12 +6,10 @@ body {
 
 .main-background {
   @include outer-container;
-
-  height: 100%;
-  width: 100%;
 }
 
 .header-icon {
+  margin-bottom: $small-spacing;
   padding-top: $small-spacing;
   width: 20%;
 
