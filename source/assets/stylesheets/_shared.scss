@@ -1,15 +1,24 @@
 body {
+  background-color: $yellow-bg;
   color: white;
-  height: 700px;
-  max-width: 400px;
+  line-height: $base-spacing;
 }
 
 .main-background {
   @include outer-container;
 
-  background-color: $yellow-bg;
   height: 100%;
   width: 100%;
+}
+
+.header-icon {
+  padding-top: $small-spacing;
+  width: 20%;
+
+  @include media(min-width 320px max-width 480px) {
+    padding-top: $base-spacing;
+    width: 40%;
+  }
 }
 
 .audio-wrapper {
@@ -20,8 +29,8 @@ body {
 }
 
 .button-wrapper {
-  @include span-columns(8);
-  @include shift(2);
+  @include span-columns(4);
+  @include shift(4);
 
   background-color: $action-color;
   border: $base-border;
@@ -33,7 +42,17 @@ body {
   a {
     color: $white;
     font-size: modular-scale(1);
-    padding: $small-spacing / 4 $small-spacing;
+    padding: $small-spacing $base-spacing;
+  }
+
+  @include media(min-width 320px max-width 480px) {
+    @include span-columns(8);
+    @include shift(2);
+
+    a {
+      font-size: modular-scale(1);
+      padding: $small-spacing / 4 $small-spacing;
+    }
   }
 }
 
