@@ -1,0 +1,810 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 10, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 34, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 55, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 68, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 90, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 170, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 174, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 230, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 253, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 291, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 358, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 380, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 391, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 400, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 409, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 420, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/vendor/normalize.css */
+td,
+th {
+  padding: 0; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #477dca;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "brandon-grotesque", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  -webkit-transition: background-color 150ms ease;
+  transition: background-color 150ms ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 21, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_buttons.scss */
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background-color: #3964a2;
+    color: #fff; }
+  /* line 27, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_buttons.scss */
+  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+    /* line 31, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_buttons.scss */
+    button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
+      background-color: #477dca; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+fieldset {
+  background-color: #fefefe;
+  border: 3px solid #f9f9f9;
+  margin: 0 0 0.75em;
+  padding: 1.5em; }
+
+/* line 8, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "brandon-grotesque", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em; }
+
+/* line 16, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+label {
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+  /* line 20, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+  label.required::after {
+    content: "*"; }
+  /* line 24, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 29, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
+select[multiple=multiple] {
+  background-color: #fff;
+  border: 3px solid #f9f9f9;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-family: "brandon-grotesque", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  -webkit-transition: border-color 150ms ease;
+  transition: border-color 150ms ease;
+  width: 100%; }
+  /* line 43, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
+  select[multiple=multiple]:hover {
+    border-color: #c7c7c7; }
+  /* line 47, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+  select[multiple=multiple]:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+  /* line 53, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+  input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled,
+  select[multiple=multiple]:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed; }
+    /* line 57, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+    input[type="color"]:disabled:hover, input[type="date"]:disabled:hover, input[type="datetime"]:disabled:hover, input[type="datetime-local"]:disabled:hover, input[type="email"]:disabled:hover, input[type="month"]:disabled:hover, input[type="number"]:disabled:hover, input[type="password"]:disabled:hover, input[type="search"]:disabled:hover, input[type="tel"]:disabled:hover, input[type="text"]:disabled:hover, input[type="time"]:disabled:hover, input[type="url"]:disabled:hover, input[type="week"]:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover,
+    select[multiple=multiple]:disabled:hover {
+      border: 3px solid #f9f9f9; }
+
+/* line 63, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 67, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+
+/* line 71, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+  /* line 76, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+  input[type="checkbox"] + label,
+  input[type="radio"] + label {
+    display: inline-block; }
+
+/* line 81, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+input[type="file"] {
+  margin-bottom: 0.75em;
+  width: 100%; }
+
+/* line 86, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_forms.scss */
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 20, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 23, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  -webkit-font-feature-settings: "kern", "liga", "tnum";
+          font-feature-settings: "kern", "liga", "tnum";
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 9, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #bbbbbb;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 16, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 3px solid #f9f9f9;
+  padding: 0.75em 0; }
+
+/* line 21, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_typography.scss */
+body {
+  color: #333;
+  font-family: "brandon-grotesque", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+          font-feature-settings: "kern", "liga", "pnum";
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 9, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "freight-big-pro", Georgia;
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 21, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 25, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  -webkit-transition: color 150ms ease;
+  transition: color 150ms ease; }
+  /* line 30, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_typography.scss */
+  a:active, a:focus, a:hover {
+    color: #355e98; }
+
+/* line 37, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 3px solid #f9f9f9;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.5em 0; }
+
+/* line 45, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 4, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+body {
+  background-color: #EFC100;
+  color: white;
+  line-height: 1.5em; }
+
+/* line 7, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+.main-background {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-4.2.6/app/assets/stylesheets/addons/_clearfix.scss */
+  .main-background::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 11, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+.header-icon {
+  margin-bottom: 1.5em;
+  padding-top: 0.75em;
+  width: 20%; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    /* line 11, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+    .header-icon {
+      margin-bottom: 0.75em;
+      padding-top: 1.5em;
+      width: 40%; } }
+
+/* line 24, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+.audio-wrapper audio {
+  display: block;
+  margin: 0 auto 3em; }
+
+/* line 30, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+.button-wrapper {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 34.11922%;
+  background-color: #477dca;
+  border: 3px solid #f9f9f9;
+  border-color: #477dca;
+  border-radius: 3px;
+  margin-bottom: 1.5em;
+  text-align: center; }
+  /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .button-wrapper:last-child {
+    margin-right: 0; }
+  /* line 41, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+  .button-wrapper a {
+    color: #f9f9f9;
+    font-size: 1.333em;
+    padding: 0.75em 1.5em; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    /* line 30, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+    .button-wrapper {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .button-wrapper:last-child {
+        margin-right: 0; }
+      /* line 51, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+      .button-wrapper a {
+        padding: 0.1875em 0.75em; } }
+
+/* line 57, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+.result-title {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%;
+  font-size: 3.15733em;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.375em;
+  text-align: center; }
+  /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .result-title:last-child {
+    margin-right: 0; }
+
+/* line 67, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_shared.scss */
+.result-sentence {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  font-size: 1.333em;
+  margin-bottom: 1.5em;
+  text-align: center; }
+  /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .result-sentence:last-child {
+    margin-right: 0; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_index.scss */
+.introduction-game {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  color: #f9f9f9;
+  font-size: 4.20873em;
+  letter-spacing: 0.03em;
+  padding-top: 0.375em;
+  text-align: center; }
+  /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .introduction-game:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    /* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_index.scss */
+    .introduction-game {
+      font-size: 3.15733em;
+      letter-spacing: 0.02em;
+      padding-top: 0.75em; } }
+
+/* line 18, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_index.scss */
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #f9F9F9;
+  width: 30%; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    /* line 18, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_index.scss */
+    svg {
+      width: 13.28836em; } }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_instructions.scss */
+.instructions {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  font-size: 1.333em;
+  margin-bottom: 1.5em; }
+  /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .instructions:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    /* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_instructions.scss */
+    .instructions {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .instructions:last-child {
+        margin-right: 0; } }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_fail.scss */
+.mention {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  font-size: 1em;
+  padding-top: 3.15733em;
+  text-align: center; }
+  /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .mention:last-child {
+    margin-right: 0; }
+
+/* line 1, /Users/marioncouesnon/Projects/random_exercice/mariane-gift-project/source/assets/stylesheets/_win.scss */
+.gift-sentence {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  text-align: center; }
+  /* line 89, /Users/marioncouesnon/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+  .gift-sentence:last-child {
+    margin-right: 0; }
