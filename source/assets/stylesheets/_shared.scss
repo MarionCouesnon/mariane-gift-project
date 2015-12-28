@@ -9,11 +9,12 @@ body {
 }
 
 .header-icon {
-  margin-bottom: $small-spacing;
+  margin-bottom: $base-spacing;
   padding-top: $small-spacing;
   width: 20%;
 
   @include media(min-width 320px max-width 480px) {
+    margin-bottom: $small-spacing;
     padding-top: $base-spacing;
     width: 40%;
   }
